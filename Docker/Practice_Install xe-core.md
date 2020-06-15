@@ -3,8 +3,8 @@
 그림 참고: [autodraw](https://www.autodraw.com/)
 
 
-
 ### Overview
+
 
 >**index.html** : 
 >  /var/www/html/index.html 로 접속 시 현재 디렉토리 아래의 xe-core/index.php 파일로 REDIRECT 설정
@@ -15,6 +15,9 @@
 
 > **docker-compose.yml** : 컨테이너 생성
 
+TOPOLOGY 
+
+<img src="https://user-images.githubusercontent.com/66865899/84674304-bf0bca00-af65-11ea-9d47-783198b6c839.png" width="40%"></img>
 
 ### **1. index.html (redirection 용)**
 
@@ -52,8 +55,7 @@ CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 "FOREGROUND로 실행될 것을 background(-D)로 실행하겠다"
 ```
 
-> **Question. 왜  apachectl 이죠?** 
-> **ubuntu에서는 apache2 , Centos에서는 httpd 를 사용한다.** 
+*왜 apachectl? ubuntu에서는 apache2 , Centos에서는 httpd 를 사용*
 
 
 ### 3. docker-compose.yml
