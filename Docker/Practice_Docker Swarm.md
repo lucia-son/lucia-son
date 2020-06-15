@@ -66,9 +66,8 @@ $ docker node promote/demote [id or HOSTNAME]: 특정 노드의 노드 계급을
 $ docker node ls
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c80b9c46-7a8e-4001-8511-a233b801d2e4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c80b9c46-7a8e-4001-8511-a233b801d2e4/Untitled.png)
+<img src="https://user-images.githubusercontent.com/66865899/84676531-96390400-af68-11ea-9c2c-437a17e00684.png" width="50%"></img>
 
-* 는 자기 자신을 표시한다. 
 
 ### @manager: 클러스터 내부에 컨테이너 배포 및 확인
 ---
