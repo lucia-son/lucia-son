@@ -12,10 +12,7 @@
 </div>
 
 #### 실습 환경 구성
-
 ---
-
-
 실제로는 manager에 해당하는 서버를 이중화하여 준비한다. 
 
 ##### **Clustering & Check**
@@ -26,8 +23,6 @@ $ docker node ls
 ```
 
 ### 1. TOKEN 발행(@manager node)
----
-
 swarm 구성하기 위해서  manager는 token을 발행한다.
 
 ```bash
@@ -41,9 +36,8 @@ To add a worker to this swarm, run the following command:
 To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
 ```
 
-### 2. SWARM JOIN (@worker 1~3 node)
----
 
+### 2. SWARM JOIN (@worker 1~3 node)
 manager에서 token으로 발행된 'docker swarm join ~' 코드를 그대로 복사하여 입력한다. 
 
 ```bash
@@ -51,16 +45,16 @@ $ docker swarm join --token SWMTKN-1-2abzt2vlvxtzd7nsvxtcxmmdumhjcooobhrwsywhdhm
 **This node joined a swarm as a worker.**
 ```
 
-**command line**
 
+**command line**
 ```bash
 $ docker swarm leave "각 노드에서 스스로 노드에서 빠짐"
 $ docker node rm [id or HOSTNAME] "노드에서 탈퇴시키기"
 $ docker node promote/demote [id or HOSTNAME]: 특정 노드의 노드 계급을 변경시키기
 ```
 
+
 ### 3. SWARM-JOINing node list check(@ manager node)
----
 
 ```bash
 $ docker node ls
@@ -70,29 +64,25 @@ $ docker node ls
 
 
 ### 4. Distribute Containers into CLUSTER (@ manager node)
----
 
 **컨테이너 복제 생성 후 배포** 
-
 ```bash
 $ docker service create --replicas 2 -p 8080:80 --name web nginx 
 ```
 
 **배포된 위치 확인**
-
 ```bash
 $ docker service ls "어떤 서비스가 생성되었는지 확인" 
 $ docker service ps web "web이라는 이름의 서버가 어디에 위치하는지 확인"
 ```
 
 **잠깐! docker_worker1과 manager에만 web이 배포되었다고 했는데
-왜 docker2와 docker3에서도 nginx가 뜨는 걸까요?** 
+왜 docker2와 docker3에서도 nginx가 뜨는 걸까요?**   
 실제 컨테이너는 2개가 생성되어있고, *서버 2개*에서 트래픽을 처리하고 있음: 들어가는 주소는 내가 요청한 주소로 들어가지만, 
 해당 노드들이 모두 Cluster가 되어있기 때문에 자동으로 해당 서비스가 있는 곳으로 접속이 된다. 
 
 
 **트래픽 증가하는 경우 컨테이너 scale out** 
-
 ```bash
 $ docker service scale web=4 
 $ docekr service ps web
@@ -102,7 +92,6 @@ $ docker service scale web=1
 ```
 
 **Overlay network 구성 및 확인**
-
 ```bash
 $ docker network create --driver=overlay --attachable web
 $ docker network ls
