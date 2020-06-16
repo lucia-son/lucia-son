@@ -1,6 +1,5 @@
 ## Swarm 구성 
 
----
 
 #### 초기 설정 
 
@@ -96,6 +95,8 @@ $ docker service scale web=1
 $ docker network create --driver=overlay --attachable web
 $ docker network ls
 ```
+
+
 
 ## Docker Swarm, Haproxy, Nginx를 활용한 웹서비스와 로드밸런싱
 
