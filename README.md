@@ -1,18 +1,21 @@
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  
 <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&height=120&section=header&text=WelCome&desc=to%20Young%20Eun%20Hub&fontSize=40&descSize=20&descAlignY=75&animation=fadeIn" />
 
-### Hi there  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed%20Light%20Skin%20Tone.png" alt="Hand with Fingers Splayed Light Skin Tone" width="25" height="25" />
+### Hi there  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" />
 
-<!--
-**lucia-son/lucia-son** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Let me Introduce Myself :::
 
-Here are some ideas to get you started:
+<details>
+ <summary>
+   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> I’m currently working on ...
+ </summary>
 
-- 🔭 I’m currently working on ...
+</details>
+
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
