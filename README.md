@@ -1,10 +1,11 @@
 
-
 <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=1&height=120&section=header&text=WelCome&desc=to%20Young%20Eun%20Hub&fontSize=40&descSize=20&descAlignY=75&animation=fadeIn" />
 
 ## Hi there  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" />
 
-Let me Introduce Myself ::: 
+Hello, I am Son Young Eun, a Data Enginner using Apache Kafka. 
+<br> I am interested in building systems that collect, manage, and convert raw data into usable information and finally monitor the data flow. 
+<br> Still not being familiar to development, but I'm eagerly learning languages like python or java to advance my data engineering work.
     
 <div align=center>
     
