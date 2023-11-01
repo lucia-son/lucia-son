@@ -1,6 +1,6 @@
 
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&height=120&section=header&text=WelCome&desc=to%20Young%20Eun%20Hub&fontSize=40&descSize=20&descAlignY=75&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,3,5,30&height=120&section=header&text=WelCome&desc=to%20Young%20Eun%20Hub&fontSize=40&descSize=20&descAlignY=75&animation=fadeIn" />
 
 ## Hi there  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" />
 
