@@ -1,6 +1,6 @@
 
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&height=120&section=header&text=WelCome!&desc=to%20Young%20Eun%20Hub&fontSize=40&descSize=20" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&height=120&section=header&text=WelCome&#128037;!&desc=to%20Young%20Eun%20Hub&fontSize=40&descSize=20&descAlignY=75&animation=fadeIn" />
 
 ### Hi there 👋
 
