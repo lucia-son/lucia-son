@@ -3,8 +3,8 @@
 
 ## Hi there  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" alt="Party Popper" width="25" height="25" />
 
-Hello, I am Son Young Eun, a Data Enginner using Apache Kafka. 
-<br> I am interested in building systems that collect, manage, and convert raw data into usable information and finally monitor the data flow. 
+Hello, I am Son Young Eun, a Data Enginner mainly using Apache Kafka in South Korea. 
+<br> I am interested in building systems that collect, manage, and convert raw data into usable information and finally monitoring the data flow. 
 <br> Still not being familiar to development, but I'm eagerly learning languages like python or java to advance my data engineering work.
     
 <div align=center>
